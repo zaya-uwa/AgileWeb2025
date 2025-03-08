@@ -6,8 +6,9 @@
     <title>Lab 1</title>
 </head>
 <body>
-    <h1>Welcome to Lab 1</h1>
+    <h1 class="class1">Welcome to Lab 1</h1>
     <img src="https://i.pravatar.cc/300" alt="Avatar Photo" id="avatar-photo">
+    <p class="class1">My name is <span style="color:blue">John Doe</span> and I am a student at UWA.</p>
     <h2>Welcome to the Agile Web Development class</h2>
     <h3>Welcome to the Agile Web Development class</h3>
     <h4>Welcome to the Agile Web Development class</h4>
@@ -18,7 +19,7 @@
         <li>CITS5505 - Agile Web</li>
         <li>IMNG - Business Intelligence</li>
     </ul>
-
+    <div id="halfPage">
     <table border="1">
         <tr>
             <th>Units</th>
@@ -66,19 +67,22 @@
   
     <p>Lab1 html could be done by <span style="color:red;font-weight:bold">this is span test</span> and p and div</p>
     <div style="color:blue;font-weight:bold">This is a div test</div>
-    <p>Lab1 html could be done by <span style="color:blueviolet">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, dignissimos eum modi voluptatum, pariatur omnis illum hic earum est, vero provident nobis cupiditate quaerat? Sint nesciunt ducimus repellat alias corrupti.</span> and p and div</p>
+    <p class="class1">Lab1 html could be done by <span style="color:blueviolet">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, dignissimos eum modi voluptatum, pariatur omnis illum hic earum est, vero provident nobis cupiditate quaerat? Sint nesciunt ducimus repellat alias corrupti.</span> and p and div</p>
     <div style="color:black;font-weight:bold">This is a form element</div>
 
-    <h2>Group Project</h2>
+    <h2 id="pageHeader">Group Project</h2>
     <form>
-        <label for="email">Email:</label><br>
+        <label for="group1">Enter number of members:</label><br>
+        <input type="number" id="group1" name="group1" min="1" max="4" oninput="createStudentInputs()"><br>
+        <label for="dateofbirth">Date of birth</label><br>
+        <input type="date" id="dateofbirth" name="dateofbirth"><br>
+        <label for="email">Email</label><br>    
         <input type="email" id="email" name="email"><br>
-        <label for="fname">First name:</label><br>
-        <input type="text" id="name" name="name"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname"><br>
-        <input type="submit" value="Submit"><br>
-
+        <label for="favcolor">Favorite color</label><br>
+        <input type="color" id="favcolor" name="favcolor"><br>
     </form>
+</div>
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
 </body>
 </html>

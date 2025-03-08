@@ -1,0 +1,33 @@
+body{
+    background-color: pink;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: blue;
+}
+
+#pageHeader{
+    background-color: yellow;
+}
+
+.class1:hover{
+    background-color: black;
+    color: green;
+    font-size: large;
+}
+
+#halfPage{
+    background-color: lightblue;
+    width: 50%;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tr:hover td{
+    background-color: lightgreen;
+}
+
+tr:hover th{
+    background-color: rgb(238, 144, 202);
+}
