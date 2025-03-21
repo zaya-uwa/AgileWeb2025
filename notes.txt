@@ -1,0 +1,5 @@
+Lab4
+-- using 3rd part JS is bringing security issue
+-- it rendering webbrowser itself. browser provide sandbox to render resources ??
+-- herev security info baival terniigee backend -daa design hiih heregtei.
+-- 
